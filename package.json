@@ -1,0 +1,26 @@
+{
+  "name": "note_taker",
+  "version": "1.0.0",
+  "description": "note taking web application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rgauna/Note_Taker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rgauna/Note_Taker/issues"
+  },
+  "homepage": "https://github.com/rgauna/Note_Taker#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "path": "^0.12.7",
+    "uuid": "^8.2.0"
+  }
+}
