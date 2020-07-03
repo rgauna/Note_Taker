@@ -5,7 +5,7 @@ let PORT = process.env.PORT || 5502;
 // Setting up the Express app to handle data 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
-app.use(express.static("public"));
+app.use(express.static("Public"));
 
 require("./apiRoutes")(app);
 require("./htmlRoutes")(app);
